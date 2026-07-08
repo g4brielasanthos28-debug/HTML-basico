@@ -1,14 +1,81 @@
-<form id="form-register">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <center>
+        <h1>Flow Surf</h1>
+        </center>
+       <center>
+        <img src="https://thf.bing.com/th/id/R.2bd3c68a957085d3f0f32d46222ac70e?rik=vwhQAvMeyM21RA&pid=ImgRaw&r=0" alt="teste" width="1300" height="500">
+         </center>
+         <style>
+        h1 {
+            font-family: Arial, sans-serif;
+        }
+        </style>
+   <body style="background-color: rgb(141, 171, 199);">
+    <form id="form-register">
 <fieldset>
-<legend>Dados Pessoais</legend>
+   <legend><b>DADOS PESSOAIS</b></legend>
+    <label for="nome">Nome:</label><br>
+   <input type="text" id="nome" name="nome" required><br><br>
+    <label for="cpf">CPF:</label><br>
+   <input type="number" id="cpf" name="cpf" required><br><br>
+   <label for="data de nascimento">Data de Nascimento:</label><br>
+   <input type="number" id="data de nascimento" name="data de nascimento" required><br><br>
 <!-- nome, cpf, data nasc. -->
+ <body>
+    <input type="radio"
+name="client-type"
+id="radio-pf"
+value="pf">
+
+<label for="radio-
+pf">Pessoa Física</label>
+
+<input type="radio"
+name="client-type"
+id="radio-pj"
+value="pj">
+
+<label for="radio-
+pj">Pessoa
+
+Jurídica</label>
+ </body>
 </fieldset>
 <fieldset>
-<legend>Dados de Acesso</legend>
+   <legend><b>DADOS DE ACESSO</b></legend>
+   <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br><br>
 <!-- email, senha -->
 </fieldset>
-<fieldset>
-<legend>Preferências</legend>
+   <fieldset>
+   <legend><b>PRODUTOS</b></legend>
 <!-- interesses, newsletter -->
+ <body>
+    <select name="category"
+id="input-category">
+    <option
+     value="">Selecione...</opt
+     ion>
+<option
+value="pranchas">Pranchas</option>
+<option
+value="roupa">Roupa</option>
+<option
+value="parafinas">Parafinas</option>
+<option
+value="acessórios">Acessórios</option>
+</select>
+ </body>
 </fieldset>
 </form>
+</body>
+</html>
