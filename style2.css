@@ -1,9 +1,106 @@
 /*Reset*/
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
 /*Corpo da página*/
-.body{
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    font-family: arial, sans-serif;
     background-attachment: fixed,rgb(141, 171, 199);
-    color: bisque;
+    color:rgb(0, 0, 0);
+}
+/*Cabeçalho*/
+ header {
+    background-color:rgb(43, 136, 207);
+    color: antiquewhite;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.imagem  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+ /* Hover nos produtos */
+ .img:hover {
+    border: 2px solid #1e90ff;
+ transform: scale(1.02);
+ border-color:#ffffff;
+ }
+/*menu horizontal*/
+nav-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+nav-menu ul li {
+ margin: 0 15px;
+}
+
+nav-menu a {
+    color: white;
+  text-decoration: none;
+}
+
+/*efeito de hover menu*/
+nav-menu a:hover{
+    text-decoration: underline;
+} 
+/* Espaço por causa do header fixo */
+ main {
+ margin-top: 100px;
+ }
+
+/*Banner*/
+.banner {
+    background-color: rgb(196, 234, 234);
+    padding: 200px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Produtos lado a lado (inline-block) */
+product-card {
+display: inline-block;
+ width: 45%;
+ background-color: white;
+ border: 1px solid #ddd;
+ padding: 15px;
+ margin: 10px;
+ vertical-align: top;
+ }
+
+ /* Hover nos produtos */
+ product-card:hover {
+ transform: scale(1.02);
+ border-color:#1e90ff;
+ }
+/* Cards de Produtos*/
+
+/*Títulos*/
+h2 {
+    margin-bottom: 10px;
+}
+
+
+/*Rodapé*/
+ footer {
+    background-color: black;
+    color:azure;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+
 }
